@@ -13,7 +13,7 @@ setting_up_container
 network_check
 update_os
 
-setup_mongodb
+MONGO_VERSION="4.4" setup_mongodb
 
 msg_info "Configuring MongoDB Replica Set"
 cat <<EOF >>/etc/mongod.conf
